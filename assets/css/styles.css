@@ -1,0 +1,22 @@
+
+:root {
+--dark: rgb(137, 0, 0);
+--light:rgb(255, 205, 240); 
+--navlink-color:rgb(132, 3, 110); 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+
+  header {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color:rgb(137, 0, 0);
+    color:rgb(255, 205, 240)
+  }
