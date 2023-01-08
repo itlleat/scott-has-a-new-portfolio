@@ -1,22 +1,116 @@
-
-:root {
---dark: rgb(137, 0, 0);
---light:rgb(255, 205, 240); 
---navlink-color:rgb(132, 3, 110); 
+* {
+  box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-  }
+.page-section {
+  display: flex;
+  margin:1%;
+  padding:2%;
+  /* flex-direction: column;
+  justify-content: left;
+  border: 5px solid black; */
+}
 
-  header {
-    display: flex;
-    margin-left: auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color:rgb(137, 0, 0);
-    color:rgb(255, 205, 240)
-  }
+.side-bar{
+  width:15%;
+  border-right:2px solid black;
+}
+.section-content{
+  width:80%
+}
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.projects {
+  width: 44%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+  border: 1px solid black;
+  margin:1%;
+  padding:1%;
+  position: relative;
+  border-radius: 7px;
+}
+
+.project-screenshot{
+  width:99%
+}
+
+.projects article{
+  position:absolute;
+  bottom: 10px;
+  background-image: linear-gradient(150deg,rgb(139, 139, 155),white);
+}
+body {
+  margin: 0;
+}
+
+.main-header {
+  height: 100px;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: url(./images/bed-of-studs.jpg) blueviolet;
+  background-size:auto;
+}
+
+#main-header {
+  display: flex;
+  /* Defines how to distribute the empty space between child elements */
+  justify-content: space-between;
+  padding: 30px;
+  background-image: url("../images/bed-of-studs.jpg") ;
+  background-size: cover;
+  background-position: 50%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  width: 60%;
+}
+
+.container{
+  margin:5%;
+  padding:5%;
+}
+
+#feature-project {
+  width:95%;
+  
+}
+
+.contact{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact a{
+  font-size: 2rem;
+  color:red;
+}
+
+.section-content iframe{
+  width:800px;
+  height:60vh;
+}
+
+.download {
+margin-left: 45%;
+}
+
+.download-2 {
+  margin-left: 35%;
+}
