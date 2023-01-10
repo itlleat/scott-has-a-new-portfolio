@@ -16,7 +16,8 @@
   border-right:2px solid black;
 }
 .section-content{
-  width:80%
+  width:80%;
+  margin-left: 0.5em;
 }
 .project-container {
   display: flex;
@@ -49,25 +50,39 @@ body {
   margin: 0;
 }
 
-.main-header {
+/* .main-header {
   height: 100px;
   width: 100%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background: url(./images/bed-of-studs.jpg) blueviolet;
   background-size:auto;
+} */
+
+main {
+  max-width: 90%;
+  margin: 20px auto 45px auto;
 }
 
 #main-header {
-  display: flex;
+  display:flex;
   /* Defines how to distribute the empty space between child elements */
-  justify-content: space-between;
   padding: 30px;
-  background-image: url("../images/bed-of-studs.jpg") ;
-  background-size: cover;
-  background-position: 50%;
+  background-color: blanchedalmond;
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
+}
+
+#main-header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+#main-header h1 {
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 
 img {
@@ -80,6 +95,7 @@ nav {
   justify-content: space-evenly;
   margin-top: 5%;
   width: 60%;
+  color: azure;
 }
 
 .container{
@@ -114,3 +130,22 @@ margin-left: 45%;
 .download-2 {
   margin-left: 35%;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: blueviolet;
+  }
+  .projects {
+    flex-direction: column;
+  }
+ .side-bar {
+  width: auto;
+ }
+nav {
+flex-wrap: wrap;
+}
+
+}
+
