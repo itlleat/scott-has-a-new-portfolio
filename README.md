@@ -1,2 +1,3 @@
 ## module-2-challenge-scott-schulman
 This is a website where you can go and take a look at my portfolio. It's structured so that the links in the main header link to their associated sections of the page. Additionally the sections of the page are on the left side with the content to the right of them. The project links currently don't deploy anything they're placeholders and the images are as well. My contact links do however work and I've included and embedded resume and letter of recommendation. I hope you enjoy.
+![Screen Shot 2023-01-09 at 9 45 25 PM](https://user-images.githubusercontent.com/118778670/211464333-3dfd8659-63a8-4d10-aa51-9312f6d2567f.png)
