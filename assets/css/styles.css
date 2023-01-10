@@ -49,14 +49,14 @@ body {
   margin: 0;
 }
 
-.main-header {
+/* .main-header {
   height: 100px;
   width: 100%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background: url(./images/bed-of-studs.jpg) blueviolet;
   background-size:auto;
-}
+} */
 
 #main-header {
   display: flex;
